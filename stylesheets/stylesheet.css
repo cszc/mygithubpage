@@ -54,10 +54,20 @@ a {
       margin-left: 0; } }
 
 .page-header {
-  color: #fff;
+  -webkit-filter: grayscale(15%);
+  filter: grayscale(15%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  color: #EAFDE6;
+  opacity: 1;
   text-align: center;
   background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-image: linear-gradient(120deg, #FF9900, #FE4365); }
+
+.page-header:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
 
 @media screen and (min-width: 64em) {
   .page-header {

@@ -115,12 +115,18 @@ a {
   margin-top: 0; }
 .main-content img {
   max-width: 100%; }
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+.main-content h1, .main-content h2, .main-content h3, .main-content h5, .main-content h6 {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: bold;
   color: #3f4c6b; }
+  .main-content h4 {
+      color: rgba(244, 67, 54, 0.9);
+      margin: 0 0 10px 0;
+  }
+
 .main-content p {
+  margin-top: .2em;
   margin-bottom: 1em; }
 .main-content code {
   padding: 2px 4px;
@@ -250,3 +256,15 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+a {
+    color: rgba(33, 150, 243, .9);}
+
+#project-list {
+   list-style-type: none;
+   padding-left: 0;
+ }
+
+#project-list li {
+    margin: 0 0 1.75em 0;
+}
